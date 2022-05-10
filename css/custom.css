@@ -1,0 +1,9 @@
+/*********navbar***************/
+.nav-header .brand-logo a{
+    text-align: center !important;
+    padding: 1.607rem 0 !important;
+}
+.nav-header .logo-abbr,
+.nav-header .brand-logo a span{
+    color: #fff;
+}
