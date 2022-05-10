@@ -1,4 +1,4 @@
-/*********navbar***************/
+/*********navbar start***************/
 .nav-header .brand-logo a{
     text-align: center !important;
     padding: 1.607rem 0 !important;
@@ -6,4 +6,41 @@
 .nav-header .logo-abbr,
 .nav-header .brand-logo a span{
     color: #fff;
+}
+.nk-sidebar .metismenu > li > a.active,
+.nk-sidebar .metismenu > li > a.active >.menu-icon{
+    background: #F3F1FA;
+    color: #7571f9;
+}
+/*********navbar end***************/
+
+.dataTables_wrapper{
+    padding: 0px !important;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-danger.btn-xs ,.btn-primary.btn-xs,
+.btn-warning.btn-xs{
+    color: #fff !important;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 15px;
+}
+.table th, .table td{
+    padding: 0.5rem;
+}
+.paging_simple_numbers .pagination .paginate_button a{
+    padding: 5px 10px;
+}
+.dataTables_length select,
+.dataTables_filter input{
+    border: 1px solid #ced4da;
+}
+.form-control{
+    height: 35px;
 }
