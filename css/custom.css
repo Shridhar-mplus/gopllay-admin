@@ -32,7 +32,7 @@ table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_des
     padding-right: 15px;
 }
 .table th, .table td{
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
 .paging_simple_numbers .pagination .paginate_button a{
     padding: 5px 10px;
@@ -41,6 +41,15 @@ table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_des
 .dataTables_filter input{
     border: 1px solid #ced4da;
 }
+.card .card-body {
+    padding: 1rem 1rem;
+}
 .form-control{
     height: 35px;
+}
+.content-body .container-fluid {
+    padding: 0px 30px 0;
+}
+.mt-10{
+    margin-top: 10px;
 }
