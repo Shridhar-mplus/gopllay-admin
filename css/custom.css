@@ -53,3 +53,17 @@ table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_des
 .mt-10{
     margin-top: 10px;
 }
+
+.tgle-on {
+    color: #28a745;
+    font-size: 18px;
+    /* margin-left: 15px; */
+    cursor: pointer;
+}
+
+.tgle-off {
+    color: #f75e5f;
+    font-size: 18px;
+    /* margin-left: 15px; */
+    cursor: pointer;
+}
